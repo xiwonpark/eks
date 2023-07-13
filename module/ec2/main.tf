@@ -83,7 +83,7 @@ else
   exit 1
 fi
 
-aws configure set aws_access_key_id "AKIAZMFYK365ABI5VFXG" && aws configure set aws_secret_access_key "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" && aws configure set region "ap-northeast-2"
+aws configure set aws_access_key_id "ACCESS_KEY_ID" && aws configure set aws_secret_access_key "SECRET_ACCESS_KEY" && aws configure set region "ap-northeast-2"
 if [ $? -ne 0 ]
 then
   echo "$(date +'%Y-%m-%d %H:%M:%S') aws configure set failed" >> $LOG_FILE
