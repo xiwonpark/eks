@@ -1,0 +1,5 @@
+# K8s
+stg/.terraform
+stg/.terraform.lock.hcl
+stg/terraform.tfstate
+stg/terraform.tfstate.backup
